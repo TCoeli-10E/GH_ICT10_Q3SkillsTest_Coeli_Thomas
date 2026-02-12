@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.7.3/core.css">
+    <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <form>
+            <input type="text" id="name" name="name" required>
+            <input type="password" id="pass1" name="pass1" required>
+            <input type="button" py-click="validate_form" value="Subby">
+        </form>
+    </div>
+    <div id="output"></div>
+    <div id="output2"></div>
+    <div id="output3"></div>
+    <py-script src="main.py"></py-script>
+</body>
+</html>
